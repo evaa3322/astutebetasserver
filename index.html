@@ -1,0 +1,1070 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="google-site-verification" content="ZdSwyt-MBmmy2qhVvOpB1bgImngICTe97safy9jBQvY" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Astute Beta Server APK – Features &amp; Guide</title>
+<meta name="description" content="Explore Astute Beta Server information, Free Fire-related gaming applications, Android compatibility, installation requirements, and safety tips.">
+<meta name="theme-color" content="#000000">
+
+<style>
+:root {
+    --primary: #ff7417;
+    --primary-hover: #e65e08;
+    --dark: #111111;
+    --text: #444444;
+    --muted: #cccccc;
+    --border: #e8e8e8;
+    --bg: #f6f7f9;
+    --white: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text);
+    background: var(--bg);
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: min(1160px, 94%);
+    margin-inline: auto;
+}
+
+/* HEADER */
+
+.site-header {
+    background: var(--white);
+    border-bottom: 3px solid var(--primary);
+    position: relative;
+    z-index: 100;
+}
+
+.header-inner {
+    min-height: 78px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    color: #222222;
+    font-size: 22px;
+    font-weight: 800;
+    white-space: nowrap;
+}
+
+.logo-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background: #171717;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 7px;
+    font-size: 23px;
+    flex-shrink: 0;
+}
+
+.logo-highlight {
+    color: var(--primary);
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.nav-menu a {
+    color: #222222;
+    font-size: 14px;
+    font-weight: 700;
+    transition: color .2s ease;
+}
+
+.nav-menu a:hover,
+.nav-menu a.active {
+    color: var(--primary);
+}
+
+.header-btn {
+    display: inline-block;
+    background: var(--primary);
+    color: #ffffff;
+    padding: 9px 16px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+    transition: background .2s ease;
+}
+
+.header-btn:hover {
+    background: var(--primary-hover);
+    color: #ffffff;
+}
+
+.menu-toggle {
+    display: none;
+    border: 0;
+    background: transparent;
+    color: #222222;
+    font-size: 28px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* BLACK TITLE / HERO SECTION */
+
+.hero {
+    background: #000000;
+    color: #ffffff;
+    border-bottom: 3px solid var(--primary);
+    padding: 48px 0;
+}
+
+.breadcrumbs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: #cccccc;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs a {
+    color: var(--primary);
+}
+
+.hero-label {
+    display: inline-block;
+    background: #202020;
+    color: #ff8a35;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    padding: 5px 11px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero h1 {
+    color: #ffffff;
+    font-size: clamp(30px, 4vw, 44px);
+    line-height: 1.3;
+    max-width: 900px;
+    margin-bottom: 16px;
+    overflow-wrap: anywhere;
+}
+
+.hero-description {
+    max-width: 790px;
+    color: #dddddd;
+    font-size: 16px;
+}
+
+.hero-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin-top: 22px;
+    color: #cccccc;
+    font-size: 13px;
+}
+
+/* MAIN LAYOUT */
+
+.main-section {
+    padding: 40px 0 65px;
+}
+
+.content-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    align-items: start;
+    gap: 25px;
+}
+
+.article-card,
+.sidebar-card {
+    background: #ffffff;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+}
+
+.article-card {
+    padding: 32px;
+    min-width: 0;
+}
+
+.article-intro {
+    background: #fff7f0;
+    border-left: 4px solid var(--primary);
+    padding: 18px 20px;
+    margin-bottom: 30px;
+    color: #444444;
+}
+
+.article-section {
+    margin-bottom: 36px;
+    scroll-margin-top: 25px;
+}
+
+.article-section:last-child {
+    margin-bottom: 0;
+}
+
+.article-section h2 {
+    color: #222222;
+    font-size: 25px;
+    line-height: 1.4;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.article-section p {
+    margin-bottom: 15px;
+}
+
+.article-section p:last-child {
+    margin-bottom: 0;
+}
+
+/* FEATURE CARDS */
+
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 15px;
+    margin: 23px 0;
+}
+
+.info-box {
+    padding: 20px;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: #ffffff;
+    transition: border-color .2s ease, transform .2s ease;
+}
+
+.info-box:hover {
+    border-color: var(--primary);
+    transform: translateY(-3px);
+}
+
+.info-icon {
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.info-box h3 {
+    color: #222222;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.info-box p {
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.7;
+    margin: 0;
+}
+
+/* NOTICE */
+
+.notice-box {
+    padding: 21px;
+    background: #fff7f0;
+    border: 1px solid #ffdec7;
+    border-radius: 8px;
+    margin: 22px 0;
+}
+
+.notice-box h3 {
+    color: #a84408;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.notice-box p {
+    margin-bottom: 0;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    display: grid;
+    gap: 20px;
+}
+
+.sidebar-card {
+    padding: 23px;
+}
+
+.sidebar-title {
+    font-size: 19px;
+    color: #222222;
+    margin-bottom: 15px;
+}
+
+.toc-list {
+    list-style: none;
+}
+
+.toc-list li {
+    border-bottom: 1px solid #eeeeee;
+}
+
+.toc-list li:last-child {
+    border-bottom: none;
+}
+
+.toc-list a {
+    display: block;
+    padding: 10px 0;
+    color: #555555;
+    font-size: 14px;
+    line-height: 1.6;
+    transition: color .2s ease;
+}
+
+.toc-list a:hover {
+    color: var(--primary-hover);
+}
+
+.sidebar-highlight {
+    background: #111111;
+    color: #ffffff;
+    padding: 24px;
+    border-radius: 8px;
+    border-top: 3px solid var(--primary);
+}
+
+.sidebar-highlight h3 {
+    font-size: 21px;
+    line-height: 1.4;
+    margin-bottom: 12px;
+}
+
+.sidebar-highlight p {
+    font-size: 14px;
+    margin-bottom: 18px;
+    color: #dddddd;
+}
+
+.sidebar-highlight a {
+    display: inline-block;
+    background: var(--primary);
+    color: #ffffff;
+    padding: 9px 13px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.sidebar-highlight a:hover {
+    background: var(--primary-hover);
+}
+
+/* FAQ */
+
+.faq-list {
+    display: grid;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.faq-item {
+    border: 1px solid var(--border);
+    border-radius: 7px;
+    background: #ffffff;
+    overflow: hidden;
+}
+
+.faq-item summary {
+    cursor: pointer;
+    list-style: none;
+    padding: 16px;
+    color: #222222;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.faq-item summary::-webkit-details-marker {
+    display: none;
+}
+
+.faq-item summary::after {
+    content: "+";
+    color: var(--primary-hover);
+    font-size: 23px;
+    flex-shrink: 0;
+}
+
+.faq-item[open] summary::after {
+    content: "−";
+}
+
+.faq-answer {
+    padding: 0 16px 17px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 1.8;
+}
+
+/* FOOTER */
+
+.site-footer {
+    background: #111111;
+    color: #cccccc;
+    border-top: 3px solid var(--primary);
+    padding-top: 45px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    gap: 35px;
+    padding-bottom: 35px;
+}
+
+.footer-brand {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.footer-brand span {
+    color: var(--primary);
+}
+
+.footer-description {
+    max-width: 370px;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.footer-heading {
+    color: #ffffff;
+    font-size: 16px;
+    margin-bottom: 13px;
+}
+
+.footer-links {
+    list-style: none;
+}
+
+.footer-links li {
+    margin-bottom: 9px;
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #cccccc;
+}
+
+.footer-links a:hover {
+    color: var(--primary);
+}
+
+.footer-bottom {
+    border-top: 1px solid #383838;
+    padding: 18px 0;
+    text-align: center;
+    font-size: 13px;
+    color: #aaaaaa;
+}
+
+/* TABLET */
+
+@media (max-width: 950px) {
+    .header-inner {
+        gap: 15px;
+    }
+
+    .nav-menu {
+        gap: 14px;
+    }
+
+    .nav-menu a {
+        font-size: 13px;
+    }
+
+    .content-layout {
+        grid-template-columns: minmax(0, 1fr) 260px;
+        gap: 18px;
+    }
+
+    .article-card {
+        padding: 24px;
+    }
+}
+
+/* MOBILE */
+
+@media (max-width: 760px) {
+    .header-inner {
+        min-height: 70px;
+        flex-wrap: wrap;
+        padding: 12px 0;
+        gap: 12px;
+    }
+
+    .logo {
+        font-size: 19px;
+    }
+
+    .logo-icon {
+        width: 36px;
+        height: 36px;
+        font-size: 20px;
+    }
+
+    .menu-toggle {
+        display: block;
+        margin-left: auto;
+    }
+
+    .header-btn {
+        display: none;
+    }
+
+    .nav-menu {
+        display: none;
+        order: 3;
+        width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+        padding: 5px 0;
+    }
+
+    .nav-menu.open {
+        display: flex;
+    }
+
+    .nav-menu a {
+        display: block;
+        padding: 11px 5px;
+        font-size: 14px;
+        border-top: 1px solid #eeeeee;
+    }
+
+    .hero {
+        padding: 34px 0;
+    }
+
+    .hero h1 {
+        font-size: clamp(28px, 7vw, 36px);
+    }
+
+    .hero-description {
+        font-size: 15px;
+    }
+
+    .content-layout {
+        grid-template-columns: 1fr;
+    }
+
+    .sidebar {
+        grid-template-columns: 1fr;
+    }
+
+    .main-section {
+        padding: 25px 0 40px;
+    }
+
+    .article-card {
+        padding: 21px 17px;
+    }
+
+    .article-section h2 {
+        font-size: 22px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+}
+
+@media (max-width: 420px) {
+    .info-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .hero-meta {
+        gap: 10px;
+    }
+
+    .breadcrumbs {
+        font-size: 12px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    *,
+    *::before,
+    *::after {
+        transition: none !important;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+<header class="site-header">
+    <div class="container header-inner">
+
+        <a href="/" class="logo" aria-label="Astute Beta Server home">
+            <span class="logo-icon" aria-hidden="true">A</span>
+            <span>Astute<span class="logo-highlight">BetaServer</span></span>
+        </a>
+
+        <button
+            class="menu-toggle"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+            aria-controls="main-navigation">
+            ☰
+        </button>
+
+        <nav class="nav-menu" id="main-navigation" aria-label="Main navigation">
+            <a href="/" class="active" aria-current="page">Home</a>
+            <a href="#features">Features</a>
+            <a href="#guide">Guide</a>
+            <a href="#safety">Safety</a>
+            <a href="#faq">FAQs</a>
+        </nav>
+
+        <a href="#article" class="header-btn">Read Guide</a>
+
+    </div>
+</header>
+
+<!-- BLACK TITLE SECTION -->
+
+<section class="hero">
+    <div class="container">
+
+        <div class="breadcrumbs">
+            <a href="/"></a>
+            
+            <span></span>
+            
+            <span></span>
+        </div>
+
+        <div class="hero-label"></div>
+
+        <h1>Astute Beta Server APK: Features, Guide &amp; Information</h1>
+
+        <p class="hero-description">
+            
+        </p>
+
+        <div class="hero-meta">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+    </div>
+</section>
+
+<!-- MAIN CONTENT -->
+
+<main class="main-section" id="article">
+    <div class="container content-layout">
+
+        <article class="article-card">
+
+            <p class="article-intro">
+                AstuteBetaServer is a name associated with online searches
+                for Free Fire-related applications, beta server information,
+                and gaming features. Checking compatibility, installation
+                requirements, and security details can help users make
+                informed decisions before installing unfamiliar software.
+            </p>
+
+            <section class="article-section" id="overview">
+                <h2>What Is AstuteBetaServer?</h2>
+
+                <p>
+                    AstuteBetaServer is a search term used by people looking
+                    for information about Astute Beta Server and related
+                    gaming content. Users may want to understand a related
+                    platform's purpose, how it works, and whether <a href="https://astutebetasserver.com/" style="color: blue; text-decoration: underline;">  https://astutebetasserver.com/  </a> an
+                    related gaming content. Users may want to know wheter an                                                                                                                                                                                                                                                                
+                    application is compatible with their Android devices.
+                </p>
+                <p>
+                    Before using a third-party application, check its source,
+                    review the available information, and understand the
+                    permissions requested during installation. A clear
+                    information page should explain an application's purpose
+                    without making unsupported claims about its features.
+                </p>
+
+                <p>
+                    Users should distinguish between official game services
+                    and third-party tools because their requirements,
+                    limitations, and security considerations may differ.
+                </p>
+            </section>
+
+            <section class="article-section" id="features">
+                <h2>Key Information About AstuteBetaServer</h2>
+
+                <p>
+                    Reviewing the basic details can help users understand
+                    an application's requirements before deciding whether
+                    to install it.
+                </p>
+
+                <div class="info-grid">
+
+                    <div class="info-box">
+                        <div class="info-icon" aria-hidden="true">🔄</div>
+                        <h3>Version Information</h3>
+                        <p>
+                            Check the version number and publication date
+                            to see whether the information is current.
+                        </p>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon" aria-hidden="true">📱</div>
+                        <h3>Device Compatibility</h3>
+                        <p>
+                            Review Android requirements, available storage,
+                            and device resources.
+                        </p>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon" aria-hidden="true">📦</div>
+                        <h3>Installation Requirements</h3>
+                        <p>
+                            Verify the APK source and check the file
+                            with a trusted security tool.
+                        </p>
+                    </div>
+
+                    <div class="info-box">
+                        <div class="info-icon" aria-hidden="true">⚙️</div>
+                        <h3>Feature Details</h3>
+                        <p>
+                            Read the application description to understand
+                            its intended purpose.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section class="article-section" id="guide">
+                <h2>How to Check AstuteBetaServer Information</h2>
+
+                <p>
+                    Finding useful information about AstuteBetaServer starts
+                    with choosing reliable sources. Search for the exact
+                    application name and compare details provided by
+                    relevant pages. Pay attention to publication dates,
+                    version details, compatibility requirements, and
+                    developer information.
+                </p>
+
+                <p>
+                    Avoid downloading files from unfamiliar websites that
+                    display excessive advertisements or redirect visitors
+                    to unrelated pages. A download button alone does not
+                    establish that a file is safe. If an application claims
+                    to be associated with a particular game, check the
+                    game's official website and published policies.
+                </p>
+
+                <p>
+                    These checks can reduce the risk of installing unwanted
+                    software or sharing personal information with an
+                    untrusted service.
+                </p>
+            </section>
+
+            <section class="article-section" id="safety">
+                <h2>Important Safety Considerations</h2>
+
+                <p>
+                    Security should remain a priority when exploring
+                    third-party gaming applications. APK files from unknown
+                    sources may contain unwanted software, request unnecessary
+                    permissions, or expose personal data. Review requested
+                    permissions carefully and avoid providing sensitive
+                    information without a clear and legitimate reason.
+                </p>
+
+                <div class="notice-box">
+                    <h3>🛡️ Keep Your Device Protected</h3>
+                    <p>
+                        Use official distribution channels whenever possible.
+                        Verify third-party files before installation, protect
+                        account credentials, and avoid sharing passwords or
+                        verification codes with unverified services.
+                    </p>
+                </div>
+
+                <p>
+                    Players should also consider their games' terms of service.
+                    Certain unofficial tools or modifications may violate
+                    game rules and could result in account restrictions.
+                    Review the relevant policies before using third-party
+                    software.
+                </p>
+
+                <p>
+                    If a website promises guaranteed rewards, unlimited
+                    resources, or special account benefits, verify those
+                    claims before taking action.
+                </p>
+            </section>
+
+            <section class="article-section" id="faq">
+                <h2>Frequently Asked Questions</h2>
+
+                <div class="faq-list">
+
+                    <details class="faq-item">
+                        <summary>What is AstuteBetaServer?</summary>
+                        <div class="faq-answer">
+                            AstuteBetaServer is a search term associated
+                            with beta server information and related gaming
+                            searches. Confirm the exact purpose and features
+                            through reliable sources.
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Is it compatible with every Android device?</summary>
+                        <div class="faq-answer">
+                            Compatibility depends on the application version,
+                            Android requirements, and available device
+                            resources. Check the published requirements
+                            before installation.
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>Should I download an APK from an unfamiliar website?</summary>
+                        <div class="faq-answer">
+                            Official distribution channels are generally
+                            safer. Verify the origin of a third-party APK
+                            and check the file before installing it.
+                        </div>
+                    </details>
+
+                    <details class="faq-item">
+                        <summary>How can I find accurate information?</summary>
+                        <div class="faq-answer">
+                            Compare trustworthy sources, check version
+                            details, review compatibility information, and
+                            avoid unsupported claims.
+                        </div>
+                    </details>
+
+                </div>
+            </section>
+
+            <section class="article-section" id="conclusion">
+                <h2>Final Thoughts</h2>
+
+                <p>
+                    AstuteBetaServer may interest people researching beta
+                    server information, Android applications, and Free
+                    Fire-related gaming tools. Before installing anything,
+                    review its purpose, compatibility, security, and
+                    potential impact on your gaming account.
+                </p>
+
+                <p>
+                    Using reliable information and exercising caution can
+                    help you make better decisions while exploring
+                    third-party applications.
+                </p>
+            </section>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15249885.318783779!2d82.75252935!3d21.0680074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2s!4v1791795022510!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </article>
+
+        <!-- SIDEBAR -->
+
+        <aside class="sidebar" aria-label="Article sidebar">
+
+            <div class="sidebar-card">
+                <h3 class="sidebar-title">📑 Table of Contents</h3>
+
+                <ul class="toc-list">
+                    <li><a href="#overview">What Is AstuteBetaServer?</a></li>
+                    <li><a href="#features">Key Information</a></li>
+                    <li><a href="#guide">How to Check Information</a></li>
+                    <li><a href="#safety">Safety Considerations</a></li>
+                    <li><a href="#faq">Frequently Asked Questions</a></li>
+                    <li><a href="#conclusion">Final Thoughts</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-highlight">
+                <h3>Make Informed Decisions</h3>
+
+                <p>
+                    Check application requirements, verify download
+                    sources, and protect your device before installing
+                    third-party gaming tools.
+                </p>
+
+                <a href="#safety">Read Safety Tips ↗</a>
+            </div>
+
+            <div class="sidebar-card">
+                <h3 class="sidebar-title">Quick Checklist</h3>
+
+                <ul class="toc-list">
+                    <li><a href="#guide">✓ Verify the source</a></li>
+                    <li><a href="#features">✓ Check compatibility</a></li>
+                    <li><a href="#safety">✓ Review permissions</a></li>
+                    <li><a href="#safety">✓ Protect account details</a></li>
+                </ul>
+            </div>
+
+        </aside>
+
+    </div>
+</main>
+
+<!-- FOOTER -->
+
+<footer class="site-footer">
+    <div class="container">
+
+        <div class="footer-grid">
+
+            <div>
+                <div class="footer-brand">
+                    Astute<span>BetaServer</span>
+                </div>
+
+                <p class="footer-description">
+                    An informational resource for readers researching
+                    AstuteBetaServer, gaming applications, compatibility,
+                    installation requirements, and digital safety.
+                </p>
+            </div>
+
+            <div>
+                <h3 class="footer-heading">Quick Links</h3>
+
+                <ul class="footer-links">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#overview">About</a></li>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#guide">Guide</a></li>
+                    <li><a href="#faq">FAQs</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <h3 class="footer-heading">Website Information</h3>
+
+                <ul class="footer-links">
+                    <li><a href="/about-us/">About Us</a></li>
+                    <li><a href="/contact-us/">Contact Us</a></li>
+                    <li><a href="/privacy-policy/">Privacy Policy</a></li>
+                    <li><a href="/disclaimer/">Disclaimer</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © <span id="current-year">2026</span>
+            AstuteBetaServer. All rights reserved.
+        </div>
+
+    </div>
+</footer>
+
+<script>
+/* MOBILE NAVIGATION */
+
+const menuButton = document.querySelector(".menu-toggle");
+const menu = document.querySelector(".nav-menu");
+
+menuButton.addEventListener("click", function () {
+    const isOpen = menu.classList.toggle("open");
+
+    menuButton.setAttribute("aria-expanded", String(isOpen));
+    menuButton.setAttribute(
+        "aria-label",
+        isOpen ? "Close navigation menu" : "Open navigation menu"
+    );
+
+    menuButton.textContent = isOpen ? "✕" : "☰";
+});
+
+/* CLOSE MOBILE MENU AFTER CLICKING A LINK */
+
+menu.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", function () {
+        menu.classList.remove("open");
+        menuButton.setAttribute("aria-expanded", "false");
+        menuButton.setAttribute("aria-label", "Open navigation menu");
+        menuButton.textContent = "☰";
+    });
+});
+
+/* AUTOMATIC COPYRIGHT YEAR */
+
+document.getElementById("current-year").textContent =
+    new Date().getFullYear();
+</script>
+
+</body>
+</html>
